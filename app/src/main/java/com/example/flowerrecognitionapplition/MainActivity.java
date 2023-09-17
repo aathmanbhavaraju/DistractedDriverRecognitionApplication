@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                 output = "Distracted Driving";
             }
             
-            result.setText(classes[maxPos]);
+            result.setText(output);
 
 
 
