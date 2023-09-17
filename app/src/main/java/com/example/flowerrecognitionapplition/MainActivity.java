@@ -111,9 +111,9 @@ public class MainActivity extends AppCompatActivity {
             String output = "";
             
             if(!classes[maxPos].equals("Safe_Driving") ){
-                output = "Safe Driving";
-            }else{
                 output = "Distracted Driving";
+            }else{
+                output = "Safe Driving";
             }
             
             result.setText(output);
